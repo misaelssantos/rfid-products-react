@@ -1,5 +1,34 @@
-body {
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #e1e2e1;
+}
+
+/*
+  Remove the following styles before
+  sending to the device or simulator
+*/
+
+html,
+body,
+#root {
+  /* height: 320px;
+  width: 240px; */
+}
+
+html,
+body {
+  background-color: #1c2022;
+}
+
+div[class*="softkey"] {
+  top: 320px;
+  bottom: auto !important;
+  width: 240px;
 }

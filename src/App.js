@@ -20,7 +20,7 @@ class App extends Component {
 
   render() {
     return (
-      <Products products={this.state.products} />  
+      <Products products={this.state.products} /> 
     );
   }
 }
